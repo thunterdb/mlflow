@@ -8,3 +8,6 @@ entry_points:
       alpha: float
       l1_ratio: {type: float, default: 0.1}
     command: "python train.py {alpha} {l1_ratio}"
+
+  main0:
+    command: "python tensorflow_example.py"
